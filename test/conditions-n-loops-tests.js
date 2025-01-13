@@ -418,11 +418,11 @@ describe('core-js-conditions-n-loops', () => {
   it.optional(
     'rotateMatrix should return the original array rotated by an angle of 90 degrees clockwise',
     () => {
-      let arr = [
-        [1, 2, 3],
-        [4, 5, 6],
-        [7, 8, 9],
-      ];
+        let arr = [
+          [1, 2, 3],
+          [4, 5, 6],
+          [7, 8, 9],
+        ];
       let result = [
         [7, 4, 1],
         [8, 5, 2],
